@@ -15,7 +15,7 @@
         --version 0.16.0
     ```
 
-1. (Optional) Deploy secret zero for ESO to use to connect to azure secret store
+1. (Optional if using AKS and AKV with managed identities) Deploy secret zero for ESO to use to connect to azure secret store
     ```
         kubectl apply -f secret-zero.yaml
     ```
